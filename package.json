@@ -4,7 +4,8 @@
   "description": "assignment task",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build-css": "node-sass --include-path scss src/assets/sass/style.scss src/assets/css/style.css"
   },
   "repository": {
     "type": "git",
