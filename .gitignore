@@ -1,4 +1,5 @@
 # Dependengy directories
 node_modules/
+npm-debug.log
 
 .DS_Store
