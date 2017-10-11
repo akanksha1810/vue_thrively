@@ -1,5 +1,6 @@
 <template>
 	<div class="header">
+		<div class="stripe"><div></div><div></div><div></div><div></div></div>
 		<div class="header-container">
 			<img class="logo" src="../assets/images/logo.png">
 			<ul class="header-left-block">

@@ -9,6 +9,27 @@
     font-weight: lighter;
     border-bottom: solid 2px #e9e9e9;
     z-index: 100;
+    .stripe {
+        height: 4px;
+        div {
+            width: 25%;
+            vertical-align: top;
+            height: 4px;
+            display: inline-block;
+            &:first-child {
+                background-color: $primary-blue;
+            }
+            &:nth-child(2) {
+                background-color: #ffca00;
+            }
+            &:nth-child(3) {
+                background-color: #6ac059;
+            }
+            &:last-child {
+                background-color: #6059c0;
+            }
+        }
+    }
     .search {
         display: inline-block;
         position: relative;
@@ -38,7 +59,7 @@
 
 .header-container {
     width: 1280px;
-    margin: auto;
+    margin: 4px auto 0 auto;
 }
 
 .header-left-block {
