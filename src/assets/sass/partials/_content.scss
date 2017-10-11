@@ -1,0 +1,323 @@
+.user-info {
+    background-color: #fff;
+    .user-name-actions {
+        height: 180px;
+        padding: 20px;
+        box-sizing: border-box;
+        div {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .user-logo {
+            margin-right: 20px;
+            width: 145px;
+            height: 145px;
+            border-radius: 50%;
+            background-position: center center;
+            vertical-align: middle;
+        }
+        .user-name {
+            margin-right: 45px;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 0.3px;
+            width: 250px;
+            white-space: nowrap;
+            overflow-x: hidden;
+            text-overflow: ellipsis;
+            vertical-align: middle;
+        }
+    }
+    .user-actions {
+        text-align: center;
+        margin: 0 20px;
+        font-size: 12px;
+        color: #8f8f8f;
+        letter-spacing: 0.2px;
+        width: 160px;
+        vertical-align: middle;
+        div {
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            color: #656565;
+        }
+        i {
+            color: #999999;
+            font-size: 30px;
+            height: 30px;
+            width: 30px;
+            border: solid 1px;
+            padding: 14px;
+            border-radius: 50%;
+            display: block;
+            margin: 8px auto 18px auto;
+        }
+    }
+    .user-activities {
+        border-top: solid 1px #e6e6e6;
+        border-bottom: solid 2px $primary-pink;
+        div {
+            color: $primary-pink;
+            width: 386px;
+            text-align: center;
+            display: inline-block;
+            height: 48px;
+            line-height: 48px;
+            font-weight: lighter;
+            letter-spacing: 0.5px;
+            border-right: solid 1px #e6e6e6;
+            cursor: pointer;
+            i {
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            &.selected {
+                color: #fff;
+                background-color: $primary-pink;
+            }
+            &:last-child {
+                border-right: none;
+            }
+            span {
+                font-weight: bold;
+            }
+            .fa-right-dir {
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                border: solid 1px;
+                padding: 2px 1px 2px 3px;
+            }
+        }
+    }
+}
+
+.profile-header {
+    margin-top: 38px;
+    line-height: 40px;
+    div {
+        display: inline-block;
+    }
+    .select-btns {
+        float: right;
+        div {
+            color: $primary-blue;
+            padding: 0 12px;
+            margin: 0 10px;
+            border: solid 1px;
+            border-radius: 4px;
+            height: 38px;
+            line-height: 38px;
+            background-color: #fff;
+            cursor: pointer;
+            &.selected {
+                color: #fff;
+                background-color: $primary-blue;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .share-btn {
+            color: #3b5997;
+            i {
+                font-size: 26px;
+                line-height: 38px;
+                vertical-align: top;
+            }
+            &.selected {
+                color: #fff;
+                background-color: #3b5997;
+            }
+        }
+    }
+    .assessment-heading {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.main-content {
+    padding: 0 40px 100px 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 15px;
+    .heading {
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: lighter;
+        color: #696969;
+        padding: 35px 50px 5px 0px;
+        position: relative;
+        line-height: 38px;
+        img {
+            position: absolute;
+            width: 50px;
+            top: 0;
+            right: 0;
+        }
+    }
+    .strengths {
+        margin-top: 25px;
+        color: #989898;
+        font-weight: bold;
+        ul {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0;
+            padding-left: 5px;
+            li {
+                display: inline-block;
+                padding: 0 12px;
+                color: $primary-blue;
+                font-weight: normal;
+                &:before{
+                    content: '';
+                    height: 5px;
+                    width: 5px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    background-color: $primary-blue;
+                    margin: 5px 8px 0 0;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+    .eval-desc {
+        line-height: 21px;
+        margin-top: 35px;
+        letter-spacing: 0.2px;
+        padding-right: 50px;
+    }
+    .bottom-border {
+        padding-bottom: 18px;
+        border-bottom: solid 1px #e6e6e6;
+    }
+    .more-about {
+        background-color: #fafafa;
+        border: 2px solid #ebebeb;
+        padding: 40px 60px;
+        margin-top: 40px;
+        img {
+            height: 190px;
+            margin-right: 40px;
+        }
+        .more-text {
+            width: 700px;
+            height: 190px;
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            .wait-text {
+                font-size: 24px;
+                letter-spacing: 0.4px;
+            }
+            .learn-more-text {
+                line-height: 22px;
+                letter-spacing: 0.2px;
+                font-size: 15px;
+            }
+            .learn-more {
+                position: absolute;
+                bottom: 12px;
+                background-color: #6cbe5a;
+                color: #fff;
+                height: 40px;
+                border-radius: 4px;
+                padding: 0 15px;
+                line-height: 40px;
+                font-size: 16px;
+                font-weight: lighter;
+                letter-spacing: 0.2px;
+                border-bottom: solid 2px #e9e9e9;
+                cursor: pointer;
+            }
+        }
+    }
+    .interests {
+        margin-top: 60px;
+        .interest-heading {
+            font-size: 25px;
+            font-weight: bold;
+            letter-spacing: 0.2px;
+        }
+        .edit {
+            font-size: 15px;
+            color: $primary-blue;
+            float: right;
+            font-weight: normal;
+            margin-top: 12px;
+            cursor: pointer;
+        }
+        .career-int {
+            margin-top: 30px;
+            text-align: center;
+            div {
+                display: inline-block;
+                margin: 0 60px;
+                color: #999;
+                font-weight: bold;
+                font-size: 15px;
+                text-transform: uppercase;
+                line-height: 22px;
+            }
+            i {
+                width: 90px;
+                height: 90px;
+                font-size: 45px;
+                border: solid 2px;
+                color: #938bc4;
+                line-height: 90px;
+                border-radius: 50%;
+                vertical-align: middle;
+            }
+            span {
+                vertical-align: middle;
+                display: inline-block;
+                width: 120px;
+                text-align: left;
+                letter-spacing: 0.4px;
+            }
+        }
+    }
+    .self-interest {
+        padding-top: 20px;
+        div {
+            vertical-align: middle;
+            display: inline-block;
+            letter-spacing: 0.4px;
+        }
+        img {
+            vertical-align: middle;
+            margin: 0 20px;
+        }
+        .int-title {
+            color: #999;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            font-weight: bold;
+        }
+        .personal-int {
+            width: 500px;
+            margin-left: 80px;
+            div {
+                width: 50%;
+                color: $primary-blue;
+                height: 20px;
+                &:before {
+                    content: '';
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    margin: 5px 5px 0 0;
+                    background-color: #999;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.content-wrapper {
+  width: 1160px;
+  margin: auto;
+}
+
+body {
+    color: #323232;
+    background-color: #f2f2f2;
+    position: relative;
+    font-family: sans-serif, Arial;
+    font-size: 14px;
+    margin: 90px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input:focus {
+    outline: none;
+}
