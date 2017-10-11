@@ -1,9 +1,9 @@
 # vue_thrively
 
-Run npm install
+Execute the following commands:
 
-Run npm start
+1. npm install
 
-Go to src/assets
+2. npm run build-css
 
-Run sass sass/style.scss css/style.css
+3. npm start
