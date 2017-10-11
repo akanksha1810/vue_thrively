@@ -1,1 +1,4 @@
-node-modules/
+# Dependengy directories
+node_modules/
+
+.DS_Store
