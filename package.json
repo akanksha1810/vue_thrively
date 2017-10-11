@@ -17,7 +17,8 @@
   ],
   "author": "Akanksha Yadav",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "vue": "^2.4.4",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -31,8 +32,5 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  },
-  "dependencies": {
-    "vue": "^2.4.4"
   }
 }
