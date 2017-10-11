@@ -25,13 +25,5 @@ export default {
             },
     }
   },
-  methods: {
-    evaluateProfile(){
-      this.items.push({message: document.querySelector('input').value});
-      this.item = '';
-    },
-    deleteData(index){
-      this.items.splice(index, 1);
-    }
-  }
+  methods: {}
 }
